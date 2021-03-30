@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# moodify :purple_heart:	
+## *Soul food for every mood*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### About
 
-## Available Scripts
+**moodify** is a React based web app which takes the input on how you feel at the moment (by either typing in the keyword(s) or selecting one of the moods from the list) and returns Spotify playlists based on your mood.
 
-In the project directory, you can run:
+You can access the web app using the [following link](https://moodify-webapp.herokuapp.com/) or check how the app works in the video below.
 
-### `npm start`
+![](moodify.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Technologies & stuff
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm test`
+- We created a **developer app** on Spotify and used the **client credentials flow** to obtain app authorization (for that matter an **environment variable** was used to safely store sensitive data)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- By playing around with **Spotify's Search API** we managed to access the playlists and extract and display the image, title and creator of each playlist
 
-### `npm run build`
+- We managed to get the **Search API query** to dynamically change based on the value of the search state which is changed when a user types the words in the input field or clicks on the mood buttons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To get that nice and responsive layout we used a few tricks from the **CSS Grid** sleeve
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Finally, we sucessfully deployed our web app to Heroku
