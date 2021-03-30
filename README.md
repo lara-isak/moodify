@@ -1,4 +1,4 @@
-# moodify :purple_heart:	
+# moodify :purple_heart: :notes:	
 ## *Soul food for every mood*
 
 ### About
