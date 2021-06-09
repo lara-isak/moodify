@@ -1,13 +1,13 @@
 # moodify
 
-moodify is a **web app build with React** which takes your current mood or the weather conditions at your current location as an input and outputs various Spotify playlists which are guaranteed to lift your spirits up and get you over that rainy day funk. :relaxed:
+moodify is a **web app build with React** which takes your current mood or the weather conditions at your current location as an input and outputs a selection of Spotify playlists based on the input which are guaranteed to lift your spirits up and get you over that rainy day funk. :relaxed:
 
 You can access the app using the [following link](https://moodify-webapp.herokuapp.com/).
 
 ![](moodify.gif)
 
 ### :muscle: Motivation behind the project
-Motivation was to build a simple and responsive interface for searching Spotify playlists while learning how to work with **React** and **Spotify / OpenWeather APIs**.
+Accessing Spotify playlists from any device with as few steps as possible by building a simple and responsive interface while learning how to work with **React** and **Spotify / OpenWeather APIs**.
 
 ### :seedling: What I learned
 :arrow_right: how to obtain **Spotify app authorization** by using the **client credentials flow** </br>
