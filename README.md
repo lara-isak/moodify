@@ -4,7 +4,7 @@ moodify is a **web app build with React** which takes your current mood or the w
 
 You can access the app using the [following link](https://moodify-webapp.herokuapp.com/).
 
-![](moodify.gif)
+![](moodify.png)
 
 ### :muscle: Motivation behind the project
 Accessing Spotify playlists from any device with as few steps as possible by building a simple and responsive interface while learning how to work with **React** and **Spotify / OpenWeather APIs**.
