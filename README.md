@@ -6,7 +6,7 @@ You can access the app using the [following link](https://moodify-webapp.herokua
 
 ![](moodify.png)
 
-### :muscle: Motivation behind the project
+### :thumbsup: Motivation behind the project
 Accessing Spotify playlists from any device with as few steps as possible by building a simple and responsive interface while learning how to work with **React** and **Spotify / OpenWeather APIs**.
 
 ### :seedling: What I learned
